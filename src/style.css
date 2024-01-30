@@ -1,0 +1,47 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ededed;
+}
+
+:root
+{
+  --mol-dark: #333;
+  --mol-light: white;
+  --mol-primary: #dbe9ff;
+  --mol-secondary: #0b2d6b;
+}
+
+.container
+{
+  width: 70%;
+  max-width: 1176px;
+  margin: auto
+}
+
+.row
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -1rem
+}
+
+.col
+{
+  width: auto;
+  flex-basis: auto;
+  flex-grow: 1;
+  padding: 1rem
+}
+
+.list-unstyled
+{
+  list-style: none;
+}
