@@ -13,10 +13,10 @@ export default {
 
     <div class="container">
       <div class="row">
-        <div class="col">
+        <div class="col-12 col-md-6 col-lg-4">
           <AppLogo></AppLogo>
         </div>
-        <div class="col">
+        <div class="col-12 col-md-6 col-lg-4">
           <h3>Pastificio</h3>
           <ul class="list-unstyled">
             <li><a href="">Pastoificio</a></li>
@@ -26,7 +26,7 @@ export default {
             <li><a href="">Sartoria della pasta</a></li>
           </ul>
         </div>
-        <div class="col">
+        <div class="col-12 col-md-6 col-lg-4">
           <h3>Prodotti</h3>
           <ul class="list-unstyled">
             <li><a href="">Le classiche</a></li>
